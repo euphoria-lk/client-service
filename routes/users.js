@@ -22,7 +22,8 @@ try{
   }else{
     res.status(201).send({
       success: 'true',
-      message: "successful"
+      message: "successful",
+      user_profile:user
     })
   }
 
